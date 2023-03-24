@@ -18,7 +18,7 @@ namespace FeelingGoodAppV2
             var outputs = new List<string>();
 
             // Replace "hello" with the name of your Durable Activity Function.
-            outputs.Add(await context.CallActivityAsync<string>("Function1_Hello", "Tokyo"));
+            outputs.Add(await context.CallActivityAsync<string>("Function1_Hello", "Detroit"));
             outputs.Add(await context.CallActivityAsync<string>("Function1_Hello", "Seattle"));
             outputs.Add(await context.CallActivityAsync<string>("Function1_Hello", "London"));
 
